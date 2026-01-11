@@ -1,0 +1,32 @@
+\documentclass[12pt,conference,onecolumn]{IEEEtran}
+
+\title{Computational solver for studying kingfisher dive dynamics }
+\author{%
+\IEEEauthorblockN{Pooja Thaker}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\425pthaker@frhsd.com}}
+\date{January 28. 2025}
+
+\newcommand{\keywords}{kingfisher, Alcedinidae, biomechanics, computational fluid dynamics, plunge diving, ANSYS, immersed boundary, IBAMR, IB2d, volume-of-fluid, VOF, overset grid}
+
+\usepackage{hyperref}
+\makeatletter
+\AtBeginDocument{
+\hypersetup{%
+pdftitle={\@title},
+pdfauthor={Pooja Thaker},
+pdfkeywords={\keywords}}}
+\makeatother
+
+\begin{document}
+\maketitle 
+
+\begin{abstract}
+My research investigates the fluid-structure interactions during kingfisher dives using computational  simulations to understand better how they avoid injury. Many species of kingfishers (family Alcedinidae) are plunge-diving birds that dive at high speeds, involving a significant impact against the water free surface, potentially with sufficient force to cause concussions in humans. The behavior appears to have arisen multiple times within the clade. In birds, previous research has examined plunge diving hydrodynamics in gannets (Sulidae), as well as head impacts in woodpeckers (Picidae); however, recent work in kingfishers solely addressed genetic signatures of convergent evolution while neglecting the biomechanics. To address the biomechanics during plunge diving in kingfishers, I focused on computational fluid dynamics (CFD) methods, namely, immersed boundary and overset grid methods. 
+
+I initially attempted immersed boundary methods, which overlay a Lagrangian (solid) frame over an Eulerian (fluid) frame to simulate fluid-structure interactions between the bird, fluid, and free surface. Previous research contained little work on the immersed boundary method applied to free surfaces and two-phase flows on complex geometries as experienced when a bird plunge dives. As a result, I shifted to overset grid methods using ANSYS Fluent. In these methods, overlapping/overset grids for solid and fluid and interpolation between the two present an alternative to immersed boundary. ANSYS Fluent also supports the Volume of Fluid (VOF) model, a multiphase model that tracks the interface between fluids.  As a first foray into bio-fluid mechanics, my short-term goals included running 2D simulations of bird and other comparison shapes. My long-term goals include data visualization and physics analysis to compare added mass, drag, and other hydrodynamic forces, flow fields, and free-surface movements during the dive, to link shape and form to potentially selective biomechanical factors and the evolution of plunge diving within the kingfishers. 
+\end{abstract}
+
+\begin{IEEEkeywords}
+\keywords
+\end{IEEEkeywords}
+
+\end{document}
