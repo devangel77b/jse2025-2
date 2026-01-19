@@ -1,18 +1,18 @@
 \documentclass[12pt,conference,onecolumn]{IEEEtran}
 
-\title{Computational solver for studying kingfisher dive dynamics }
+\title{Origami-engineered biopolymer patch for localized nanoparticle delivery in pediatric skin cancer and post-tumor removal therapy}
 \author{%
-\IEEEauthorblockN{Pooja Thaker}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\425pthaker@frhsd.com}}
-\date{January 28. 2025}
+\IEEEauthorblockN{Dia Avalur}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426davalur@frhsd.com}}
+\date{January 28, 2026}
 
-\newcommand{\keywords}{kingfisher, Alcedinidae, biomechanics, computational fluid dynamics, plunge diving, ANSYS, immersed boundary, IBAMR, IB2d, volume-of-fluid, VOF, overset grid}
+\newcommand{\keywords}{origami, drug delivery, therapy, diffusion kinetics, pediatric oncology, pH, biomedical engineering}
 
 \usepackage{hyperref}
 \makeatletter
 \AtBeginDocument{
 \hypersetup{%
 pdftitle={\@title},
-pdfauthor={Pooja Thaker},
+pdfauthor={Dia Avalur},
 pdfkeywords={\keywords}}}
 \makeatother
 
@@ -20,9 +20,7 @@ pdfkeywords={\keywords}}}
 \maketitle 
 
 \begin{abstract}
-My research investigates the fluid-structure interactions during kingfisher dives using computational  simulations to understand better how they avoid injury. Many species of kingfishers (family Alcedinidae) are plunge-diving birds that dive at high speeds, involving a significant impact against the water free surface, potentially with sufficient force to cause concussions in humans. The behavior appears to have arisen multiple times within the clade. In birds, previous research has examined plunge diving hydrodynamics in gannets (Sulidae), as well as head impacts in woodpeckers (Picidae); however, recent work in kingfishers solely addressed genetic signatures of convergent evolution while neglecting the biomechanics. To address the biomechanics during plunge diving in kingfishers, I focused on computational fluid dynamics (CFD) methods, namely, immersed boundary and overset grid methods. 
-
-I initially attempted immersed boundary methods, which overlay a Lagrangian (solid) frame over an Eulerian (fluid) frame to simulate fluid-structure interactions between the bird, fluid, and free surface. Previous research contained little work on the immersed boundary method applied to free surfaces and two-phase flows on complex geometries as experienced when a bird plunge dives. As a result, I shifted to overset grid methods using ANSYS Fluent. In these methods, overlapping/overset grids for solid and fluid and interpolation between the two present an alternative to immersed boundary. ANSYS Fluent also supports the Volume of Fluid (VOF) model, a multiphase model that tracks the interface between fluids.  As a first foray into bio-fluid mechanics, my short-term goals included running 2D simulations of bird and other comparison shapes. My long-term goals include data visualization and physics analysis to compare added mass, drag, and other hydrodynamic forces, flow fields, and free-surface movements during the dive, to link shape and form to potentially selective biomechanical factors and the evolution of plunge diving within the kingfishers. 
+Children recovering from cancer treatments often develop painful skin lesions that require frequent topical medication, which can be uncomfortable and inconsistent. This study presents a moisture-triggered sodium-alginate patch that folds in an origami-like pattern to deliver tannic acid, a natural antioxidant, in a controlled and localized way. Sodium alginate is an inexpensive, biocompatible hydrogel material, and tannic acid, found naturally in green tea, is gentle and soothing on irritated skin, making the combination ideal for pediatric care. The patch’s design and crosslinking density were optimized to regulate swelling and diffusion under both physiological (pH 7.4) and wound-like (pH 5.5) conditions. Flat and origami geometries were modeled using Fick’s Law of diffusion to study how pH and crosslinking influence release behavior. Data collected over nine time points (0--24 h) were analyzed using ANOVA and kinetic model fitting. The origami design released nearly twice as much tannic acid under physiological conditions as the flat, highly crosslinked design in acidic conditions, with cumulative release values of 78--80\% and 39--41\%, respectively. Increased surface area and moisture exposure improved diffusion release rates, while tighter crosslinking reduced pore size and slowed release rates. Overall, this work demonstrates that a soft, moisture-responsive hydrogel patch can provide a gentle, low-cost, and effective method for targeted treatment in pediatric skin cancer recovery. Future work will focus on creating physical prototypes and validating diffusion performance experimentally.
 \end{abstract}
 
 \begin{IEEEkeywords}

@@ -1,0 +1,5 @@
+"Creating Marketing Activations in our WIT Internship"
+
+Rishith Chandra Kilaru and Andrew Kabatsky
+
+WIT is a sports marketing company that creates activations, which are marketing events, to promote fan engagement. During our internship at WIT, we learned to use HTML, CSS, JavaScript, and React. Using these tools, we created numerous projects, including a personal website, a Pokémon-based Tic-Tac-Toe game, and an endless runner platformer game. These activations have been pitched to the WIT CTO as potential activations for the future. Our most developed project, the endless runner, involves a point system that increases depending on duration played and number of enemies defeated. Players will compete worldwide for a top spot on the leaderboard, after which prizes will be given to the top three winners.

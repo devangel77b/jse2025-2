@@ -1,0 +1,28 @@
+﻿Girl in Space Club (GISC) internship
+
+
+Aleksandra Castravet Guimaraes
+Science & Engineering
+Manalapan High School
+Englishtown, NJ
+426aguimaraes@frhsd.com
+
+
+Jake Chin
+Science & Engineering
+Manalapan High School
+Englishtown, NJ
+426jchin@frhsd.com
+
+
+Sabrina Thompson
+Girl in Space Club
+sabrina.thompson@girlinspaceclub.com
+
+
+Abstract
+Girl in Space Club is a creative technology and human-systems design lab. They design, prototype, and commercialize equipment, tools, and experiences for people navigating future worlds—on Earth and beyond. It was founded by NASA engineer Sabrina Thompson.  As part of our mission, we were tasked with creating a full-stack simulation tool that models autonomous spacecraft swarms powered by AI and orbital mechanics. This will be used to demonstrate AI-driven decision-making for a swarm of spacecraft executing orbital maneuvers in response to goals, threats, or mission objectives for both educational and technological purposes. During our presentation, we will present (1) our research involving swarm autonomy rules, their relative motion, and orbital mechanics; (2) how we translated this research into visual representations; and (3) what we plan to implement into our interface in the future for the backend, as well as any issues we encountered.
+
+
+Index Terms
+Girl in Space Club, interface, Python, Internship, swarm, Swarm Autonomy, orbital mechanics, backend, relative motion, autonomous, spacecraft, AI
