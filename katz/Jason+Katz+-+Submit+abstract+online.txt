@@ -1,0 +1,14 @@
+﻿Non-Launching Mini Fridge (NLMF)
+
+
+Jason Katz
+Science & Engineering
+Manalapan High School
+Englishtown, NJ
+426jkatz@frhsd.com
+
+
+Project Overview
+
+
+There have been times where I’ve been lounging on the couch and did not want to walk over to grab a drink. That is where the inspiration of a Launching Mini Fridge came from. I’ve split the project into two parts, the minifridge with storage and dispensing mechanisms, and the aiming and launching mechanisms. For this semester, I aimed to modify a Frigidaire Compact Refrigerator to store four unique kinds of cans and four cans per type (sixteen in total.) For the storage system, I created a cardboard prototype with an Arduino Mega, servos, lights, buttons, and Micro switches. Once one out of four buttons are pressed, the corresponding drink will dispense one out of the four drinks and move the rest down. Since cardboard is not a reliable or durable material, Pvc and Adhesive Cement will be used for the main prototype. To bring the drink out of the fridge, I looked into a smooth conveyer belt to move the drink to the side to be released out the hole.

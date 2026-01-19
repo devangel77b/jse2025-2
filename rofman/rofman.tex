@@ -1,0 +1,35 @@
+\documentclass[12pt,conference,onecolumn]{IEEEtran}
+
+\title{Biomimetic robot: Robofish and printed circuit board (PCB) design project}
+\author{%
+\IEEEauthorblockN{Petra Rofman}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426profman@frhsd.com}\and
+\IEEEauthorblockN{Ethan Fuks}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426efuks@frhsd.com}\and
+\IEEEauthorblockN{Emily Chen}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426echen@frhsd.com}}
+
+\date{January 28, 2026}
+
+\newcommand{\keywords}{printed circuit board, PCB, CNC milling machine, biomimetic robot, subcarangiform swimming}
+
+\usepackage{hyperref}
+\makeatletter
+\AtBeginDocument{
+\hypersetup{%
+pdftitle={\@title},
+pdfauthor={Petra Rofman, Ethan Fuks, and Emily Chen},
+pdfkeywords={\keywords}}}
+\makeatother
+
+\begin{document}
+\maketitle 
+
+\begin{abstract}
+With this project we studied the biomechanics of fish swimming in order to design and build a robotic fish that can swim forward, turn, change depths, adjust speed, and utilize a subcarangiform method of swimming. The fish is broken up into three parts: the head, the body, and the tail. The segmented tail is modeled after the spine of a fish and spans roughly two thirds of its length, modeling which parts of the body are free to undulate in subcarangiform motion. The tail is passively actuated by attaching the first segment to a scotch yoke mechanism located inside the body. To control the direction the fish swims in, we actively actuated the head by attaching it to the body with a servo motor. The pectoral fins are extensions of servo motors, located on both sides of the body, whose main purpose is to adjust the angle of the fish's diving plane. The majority of the fish was 3D modeled using Autodesk Inventor and printed as one piece, except for the head, which was printed separately. The forked caudal fin was modeled on Blender and printed with TPU, while the rest was printed in PLA. The connection between the body and the first segment was wrapped in silicone to prevent water from getting in. Furthermore, we sealed the 3D printed parts to make them waterproof and prevent the electronics inside the body from being compromised.
+
+The second half of the project was to develop in-house manufacturing methods for a CNC machine, the Carvey, to create printed circuit boards. Using Autodesk Fusion to design the schematic, 2D PCB layout, and 3D manufacturing steps, we were able to mill custom printed circuit boards quickly and at lower cost. This enables rapid PCB prototyping, without needing to wait for delivery times associated with online machining services. I designed and milled various test circuits to learn the process, wrote a guide for others to follow, and designed and machined the PCB for the RoboFish.
+\end{abstract}
+
+\begin{IEEEkeywords}
+\keywords
+\end{IEEEkeywords}
+
+\end{document}

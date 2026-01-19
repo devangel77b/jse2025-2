@@ -1,0 +1,8 @@
+﻿Keywords: 
+residential architecture, AutoCAD Architecture, floor plan design, zoning regulations, single-family housing
+
+
+Abstract:
+Residential architectural design balances client requirements, zoning and setback regulations, and efficient spatial organization within real-world building constraints. In this internship, I designed a single family residence in Wall Township. The project design consists of a 3-bedroom, 2.5-bath home with approximately 2,000 square feet of living space along with a large garage. 
+Using AutoCAD Architecture 2013, I produced detailed floor plans and layouts with an open first-floor plan. Key requirements include an island kitchen, hardwood flooring throughout the main living areas, and a primary bedroom with a walk-in closet for both his and hers, freestanding tub, and large shower.  This project incorporated research on local zoning and government regulations, including setbacks and lot size requirements specific to Wall Township. Additionally, review of the engineer's report supported an understanding of structural considerations. 
+This project served as technical training in applying residential planning principles while working within zoning requirements and producing professional architectural designs.

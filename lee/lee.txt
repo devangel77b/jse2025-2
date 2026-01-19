@@ -1,0 +1,5 @@
+Edmund Lee
+
+Reversing Gearbox
+
+This project details the design and prototyping of a mechanical reversing gearbox. Intended to allow for bidirectional power transmission while maintaining a direct 1:1 input-to-output ratio in both forward and reverse. The system was designed to accommodate high-torque inputs, such as those found in high-performance motorcycles. Using computer-aided design and iterative prototyping through 3D printing, the gearbox features a selectable gear train and a dog clutch-based locking mechanism to constrain carrier motion and ensure reliable engagement between gear states. The design focuses on mechanical simplicity, compactness, and ease of manufacturing while avoiding continuous reverse gearing losses. Future work includes functional testing against alternative reversing mechanisms and material analysis to determine suitable materials for machined components.

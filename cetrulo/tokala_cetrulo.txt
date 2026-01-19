@@ -1,0 +1,10 @@
+﻿Abstract
+
+
+Mathematics relies heavily on symbolic notation, spatial relationships, and non-linear structures that challenge traditional text-to-speech systems. While screen readers have improved accessibility for reading text, their performance for mathematics remains insufficient due to inconsistent formatting standards, unclear interpretation of mathematical meaning, and a lack of audio representation for visually intuitive math layouts and structures. We were tasked with evaluating current screen reader technologies and developing ideas to improve mathematical accessibility for visually impaired users. Our research involved testing existing screen readers with mathematical symbols, conducting interviews with visually impaired individuals about their experiences accessing mathematical content, and identifying accessibility features that should be included into our website from the initial design phase. 
+
+
+Index Terms
+
+
+Screen readers, accessibility, mathematics, visually impaired, assistive technology, mathematical notation, inclusive design

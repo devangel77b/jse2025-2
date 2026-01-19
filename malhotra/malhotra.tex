@@ -1,0 +1,32 @@
+\documentclass[12pt,conference,onecolumn]{IEEEtran}
+
+\title{Data forecasting with auto-regresive integrated moving average (ARIMA)}
+\author{%
+\IEEEauthorblockN{Kriti Malhotra}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426kmalhotra@frhsd.com}\and
+\IEEEauthorblockN{Connor Paskiewicz}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426cpaskiewicz@frhsd.com}}
+
+\date{January 28, 2026}
+
+\newcommand{\keywords}{ARIMA, autoregressive integrated moving average, SARIMA, seasonal autoregressive integrated moving average, data forecasting, job growth}
+
+\usepackage{hyperref}
+\makeatletter
+\AtBeginDocument{
+\hypersetup{%
+pdftitle={\@title},
+pdfauthor={Kriti Malhotra and Connor Paskiewicz},
+pdfkeywords={\keywords}}}
+\makeatother
+
+\begin{document}
+\maketitle 
+
+\begin{abstract}
+The Bureau of Labor Statistics (BLS) has consistently struggled to predict exact numbers for job growth; however, the predictions made since around 2019, and especially in the years following COVID-19, have proven to be unreliable. With even more scary revisions and drastic miscalculations coming out over the last few months, we have attempted to locate the issues found within the BLS’s system. After examining the BLSs current equations and methods for data collection, as well as our own outside research, we decided that their methods were both outdated and inaccurate. This inaccuracy seemed to come primarily from the Birth-Death forecasting model at the core of the BLS’s calculations, called an auto-regressive integrated moving average (ARIMA) forecasting model. We decided to create our own preliminary ARIMA model, as well as adjacent models and graphs such as autocorrelation functions, and seasonal auto-regressive integrated moving average (SARIMA) builds. While we were never able to get our hands on the exact data which the BLS uses, simply because it is unreleased, using other data sources and common datasets has helped us come to a conclusion regarding their practices. By the end of our research and coding, we have concluded that while ARIMA data forecasting is helpful and accurate for short-term, consistent data, it generally struggles with volatile and inconsistent trends, which seems to be the primary reason the BLS has struggled with such a model when predicting economic growth rates. Why is this all about BLS when you dropped BLS entirely? 
+\end{abstract}
+
+\begin{IEEEkeywords}
+\keywords
+\end{IEEEkeywords}
+
+\end{document}

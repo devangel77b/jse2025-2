@@ -1,0 +1,15 @@
+﻿A Liquidity-Driven Framework for MNQ1 Futures
+           Brandon Heller                              Dev Parekh
+        Science and Engineering                   Science and Engineering
+          Manalapan Highschool                     Manalapan Highschool
+             Englishtown, NJ                                 Englishtown, NJ
+        426BHeller@frhsd.com                     426DParekh@frhsd.com
+
+
+
+
+                                                    Abstract
+        This project demonstrates the design and evaluation of a rule based trading model for the Micro E-mini Nasdaq-100 (MNQ) futures contract. The model utilizes a multitude of technical confluences, including liquidity sweeps, fair value gaps (FVGs), inverse fair value gaps (iFVGs), breaks of structure, and order blocks, to identify high probability trade entries. Each confluence was individually programmed using TradingView’s Pine script, allowing for systematic confirmation directly on price charts. Through the combination of these signals into a single framework, the model reduces impulsive decision making and bias. Backtesting demonstrated an improved clarity in entry timing, more favorable risk-to-reward profiles, and reduced poor decision making. The results emphasize the effectiveness of coding trading concepts into repeatable conditions and highlight the importance of algorithmic trading in intraday futures trading strategies.
+        
+                                                                  Index Terms
+        Micro E-mini Nasdaq-100 (MNQ), futures trading, liquidity sweep, Fair Value Gap (FVG), inverse FVG, order block, break of structure, Pine Script, TradingView, intraday trading model, risk management
