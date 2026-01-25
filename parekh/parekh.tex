@@ -1,9 +1,11 @@
 \documentclass[12pt,conference,onecolumn]{IEEEtran}
 
+\usepackage[hidelinks]{hyperref}
+
 \title{A liquidity-driven framework for Micro E-mini NASDAQ-100 Futures (MNQ1)}
 \author{%
-\IEEEauthorblockN{Dev Parekh}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426dparekh@frhsd.com}\and
-\IEEEauthorblockN{Brandon Heller}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426bheller@frhsd.com}}
+\IEEEauthorblockN{Dev Parekh}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426dparekh@frhsd.com}{426dparekh@frhsd.com}}\and
+\IEEEauthorblockN{Brandon Heller}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426bheller@frhsd.com}{426bheller@frhsd.com}}}
 
 \date{January 28, 2026}
 
@@ -22,7 +24,7 @@ pdfkeywords={\keywords}}}
 \maketitle 
 
 \begin{abstract}
-This project demonstrates the design and evaluation of a rule based trading model for the Micro E-mini Nasdaq-100 (MNQ) futures contract. The model utilizes a multitude of technical confluences, including liquidity sweeps, fair value gaps (FVGs), inverse fair value gaps (iFVGs), breaks of structure, and order blocks, to identify high probability trade entries. Each confluence was individually programmed using TradingView’s Pine script, allowing for systematic confirmation directly on price charts. Through the combination of these signals into a single framework, the model reduces impulsive decision making and bias. Backtesting demonstrated an improved clarity in entry timing, more favorable risk-to-reward profiles, and reduced poor decision making. The results emphasize the effectiveness of coding trading concepts into repeatable conditions and highlight the importance of algorithmic trading in intraday futures trading strategies.
+This project demonstrates the design and evaluation of a rule based trading model for the Micro E-mini Nasdaq-100 (MNQ) futures contract. The model utilizes a multitude of technical confluences, including liquidity sweeps, fair value gaps (FVGs), inverse fair value gaps (iFVGs), breaks of structure, and order blocks, to identify high probability trade entries. Each confluence was individually programmed using TradingView’s Pine script, allowing for systematic confirmation directly on price charts. Through the combination of these signals into a single framework, the model reduces impulsive decision making and bias. Backtesting demonstrated an improved clarity in entry timing, more favorable risk-to-reward profiles, and reduced poor decision making. The results emphasize the effectiveness of coding trading concepts into repeatable conditions and highlight the importance of algorithmic trading in intraday futures trading strategies, evident through our 11\% increase in win rate compared to manually trading without our tool.
 \end{abstract}
 
 \begin{IEEEkeywords}

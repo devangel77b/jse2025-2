@@ -1,9 +1,11 @@
 \documentclass[12pt,conference,onecolumn]{IEEEtran}
 
+\usepackage[hidelinks]{hyperref}
+
 \title{Interactive hydroponic growth simulator for educational use}
 \author{%
-\IEEEauthorblockN{Joshua Perle}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426jperle@frhsd.com}\and
-\IEEEauthorblockN{Rohan Avalur}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426ravalur@frhsd.com}}
+\IEEEauthorblockN{Joshua Perle}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426jperle@frhsd.com}{426jperle@frhsd.com}}\and
+\IEEEauthorblockN{Rohan Avalur}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426ravalur@frhsd.com}{426ravalur@frhsd.com}}}
 \date{January 28, 2026}
 
 \newcommand{\keywords}{hydroponic growth simulator, hydroponics, plant growth, simulation, growth index, environmental modeling, educational tool, interactives}
@@ -21,7 +23,7 @@ pdfkeywords={\keywords}}}
 \maketitle 
 
 \begin{abstract}
-This project is a web-based hydroponic simulator created to forecast plant growth in a variety of environmental circumstances. Temperature, electrical conductivity, light intensity, and pH stress, which is the decrease in growth brought on by departures from a plant's ideal pH range, are among the environmental inputs that the simulator uses to model plant growth using the Growth Index equation. The model's main output is an estimated harvest time and growth rate, which enables students to see how environmental changes affect plant development. Sliders allow users to interact with the simulation, allowing for the simultaneous execution of multiple trials and comparisons between different plant species, including kale (\emph{Brassica oleracea}), lettuce (\emph{Latuca sativa}), tomatoes (\emph{Solanum lycopersicum}), and basil (\emph{Ocimum basilicum}). This simulation, which is based on actual hydroponic monitoring systems, helps students develop their intuition about plant growth and sustainable agriculture through experimentation. It also supports curriculum objectives in biology and environmental science topics related to systems modeling and data analysis.
+This project is a web-based hydroponic simulator created to forecast plant growth in a variety of environmental circumstances. Temperature, electrical conductivity, light intensity, and pH stress, which is the decrease in growth brought on by departures from a plant's ideal pH range, are among the environmental inputs that the simulator uses to model plant growth using the Growth Index equation. The model's main output is an estimated harvest time and growth rate, which enables students to see how environmental changes affect plant development. Sliders allow users to interact with the simulation, allowing for the simultaneous execution of multiple trials and comparisons between different plant species, including kale (\emph{Brassica oleracea}), lettuce (\emph{Latuca sativa}), tomatoes (\emph{Solanum lycopersicum}), and basil (\emph{Ocimum basilicum}). This simulation, which is based on actual hydroponic monitoring systems, helps students develop their intuition about plant growth and sustainable agriculture through experimentation. By enabling students to manipulate environmental variables and analyze system-level responses, the simulator reinforces concepts from AP Biology like homeostasis and experimental design, as well as AP Environmental Science topics including sustainable agriculture, resource management, and human impacts on ecosystems. 
 \end{abstract}
 
 \begin{IEEEkeywords}

@@ -1,9 +1,11 @@
 \documentclass[12pt,conference,onecolumn]{IEEEtran}
 
+\usepackage[hidelinks]{hyperref}
+
 \title{Low cost intravenous bag weight monitor}
 \author{%
-\IEEEauthorblockN{Nitika Kishore}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426nkishore@frhsd.com}\and
-\IEEEauthorblockN{Srilekha Dantu}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426sdantu@frhsd.com}}
+\IEEEauthorblockN{Nitika Kishore}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426nkishore@frhsd.com}{426nkishore@frhsd.com}}\and
+\IEEEauthorblockN{Srilekha Dantu}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426sdantu@frhsd.com}{426sdantu@frhsd.com}}}
 \date{January 28, 2026}
 
 \newcommand{\keywords}{biomedical engineering, ardunio, intravenous, IV}
@@ -21,7 +23,7 @@ pdfkeywords={\keywords}}}
 \maketitle 
 
 \begin{abstract}
-Intravenous (IV) drips are widely used in clinical settings to maintain patient hydration and prevent complications. Although electronic IV pumps provide continuous monitoring, their high cost limits implementation in low-resource hospitals. This Low-Cost IV Bag Weight Monitor offers an affordable alternative by detecting when an IV bag reaches a low volume threshold. The device uses a single-point load cell to measure bag weight and triggers a visual LED indicator and audible buzzer when the weight falls below a preset limit. The current prototype uses a simple shelf-style structure to house the Arduino-based circuitry and display the alarm components. Future work will integrate a microcontroller and a compact 3D-printed encapsulation to improve durability, reduce size, and improve overall usability.
+Intravenous (IV) drips are widely used in clinical settings to maintain patient hydration and prevent complications. Although electronic IV pumps provide continuous monitoring, their high cost limits implementation in low-resource hospitals. Our low cost IV bag weight monitor device offers an affordable alternative by detecting when an IV bag reaches a low volume threshold. The device uses a single-point load cell to measure bag weight and triggers a visual LED indicator and audible buzzer when the weight falls below a preset limit. The current prototype uses a simple shelf-style structure to house the Arduino-based circuitry and display the alarm components. Registered nurses have reviewed the current prototype, deeming it a feasible and efficient alternative to more expensive IV pumps. Future work will integrate a microcontroller and a compact 3D-printed encapsulation to improve durability, reduce size, and improve overall usability.
 \end{abstract}
 
 \begin{IEEEkeywords}

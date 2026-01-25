@@ -1,11 +1,13 @@
 \documentclass[12pt,conference,onecolumn]{IEEEtran}
 
+\usepackage[hidelinks]{hyperref}
+
 \title{Tracking progress of data backup and restore test cases: Internship at Commvault}
 \author{%
-\IEEEauthorblockN{Miguel Arenas}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426marenas@frhsd.com}}
+\IEEEauthorblockN{Miguel Arenas}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426marenas@frhsd.com}{426marenas@frhsd.com}}}
 \date{January 28, 2026}
 
-\newcommand{\keywords}{Commvault, test case, data backup and restore, progress tracking}
+\newcommand{\keywords}{Commvault, test case, data backup and restore, progress tracking, SDK, software development kit}
 
 \usepackage{hyperref}
 \makeatletter
@@ -20,7 +22,7 @@ pdfkeywords={\keywords}}}
 \maketitle 
 
 \begin{abstract}
-Commvault is a cybersecurity company that provides data protection and information management software. Test cases of data backup and recovery provide computer engineers with opportunities to find flaws in current processes and allow them to prevent real disasters from happening. At my internship at Commvault, I learned about the virtualization of operating systems to understand how they safely and securely program processes for data backup and recovery. I was given a test case of data backup and restoration and was tasked to understand its workflow. My overall task was to use Commvault’s Python SDK and ProgressTracker module to track its progress, and to retry failed steps rather than restarting the entire operation, saving time and resources by fully automating test case running.
+Commvault is a cybersecurity company that provides data protection and information management software. Test cases of data backup and recovery provide computer engineers with opportunities to find flaws in current processes and allow them to prevent real disasters from happening. At my internship at Commvault, I learned about the virtualization of operating systems to understand how they safely and securely program processes for data backup and recovery. I was given a test case of data backup and restoration and was tasked to understand its workflow. My overall task was to use Commvault’s Python software development kit (SDK) and ProgressTracker module to track its progress, and to retry failed steps rather than restarting the entire operation, saving time and resources by fully automating test case running.
 \end{abstract}
 
 \begin{IEEEkeywords}

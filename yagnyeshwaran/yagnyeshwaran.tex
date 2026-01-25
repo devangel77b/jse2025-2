@@ -1,8 +1,12 @@
 \documentclass[12pt,conference,onecolumn]{IEEEtran}
 
-\title{I don't have a good title: Internship at Commvault}
+\usepackage[hidelinks]{hyperref}
+
+\title{Slack adoption metrics and analytics at Commvault: Internship at Commvault}
 \author{%
-\IEEEauthorblockN{Sagarika Yagnyeshwaran}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\426syagnyeshwaran@frhsd.com}}
+\IEEEauthorblockN{Sagarika Yagnyeshwaran}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426syagnyeshwaran@frhsd.com}{426syagnyeshwaran@frhsd.com}}\and
+\IEEEauthorblockN{Shiva Reddy Bommidika}\IEEEauthorblockA{Commvault\\Tinton Falls, NJ\\\href{mailto:shivareddy@commvault.com}{shivareddy@commvault.com}}}
+
 \date{January 28, 2026}
 
 \newcommand{\keywords}{Commvault, Power BI, Python, data analysis, Azure, internship}
@@ -12,7 +16,7 @@
 \AtBeginDocument{
 \hypersetup{%
 pdftitle={\@title},
-pdfauthor={Miguel Arenas},
+pdfauthor={Sagarika Yagnyeshwaran and Shiva Reddy Bommidika},
 pdfkeywords={\keywords}}}
 \makeatother
 
@@ -20,7 +24,7 @@ pdfkeywords={\keywords}}}
 \maketitle 
 
 \begin{abstract}
-Commvault is a cybersecurity company that provides data protection and information management software. During my internship at Commvault, I supported the company’s transition from Microsoft Teams to Slack by automating the extraction of data from the Slack API via time-triggered Azure Function Apps. Using this data, I began designing a Power BI dashboard to visually showcase the usage patterns of various Slack tools and functions, allowing the Business Development team and leadership to quantify the impact of Slack in the workspace.
+Commvault is a cybersecurity company that provides data protection and information management software. During my internship at Commvault, I supported the company's transition from Microsoft Teams to Slack, both of which are used for communication within the organization as well as externally. I did so by automating the extraction of data from the Slack API via time-triggered Azure Function Apps. I worked on cleaning this raw data into tables to support development of a Power BI dashboard, to visually showcase the usage patterns of various Slack tools and functions. This will allow the Business Development team and leadership to quantify impacts or the adoption of Slack within the workspace at Commvault. 
 \end{abstract}
 
 \begin{IEEEkeywords}
