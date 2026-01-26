@@ -25,16 +25,16 @@ linkcolor=blue,urlcolor=blue]{confproc}
 \begin{document}
 \frontmatter
 \setcounter{page}{1}
-\pdfbookmark[0]{Preamble}{preamble}
+%\pdfbookmark[0]{Preamble}{preamble}
 \pdfbookmark[0]{Cover}{cover}
 %\maketitle
 \includepdf[pages=1]{cover}
 \newpage
 \input{masthead.tex}
 \otherpagestyle
+\pdfbookmark[0]{Table of Contents}{toc}
 \tableofcontents
 \addtocontents{toc}{{\normalfont\sffamily\Large Journal of\medskip~}\\{\normalfont\Huge Science \& Engineering}\medskip\\}
-\pdfbookmark[0]{Table of Contents}{toc}
 \makeatletter
 \addtocontents{toc}{Volume 2, Number 1, \@date\bigskip\\}
 \makeatother
@@ -128,7 +128,7 @@ index={\index{Canada, Cole}\index{Akula, Tushaar}\index{August, K}},
 
 
 
-\session{Projects and internships, session 2, main auditorium, 9:10--10:40 AM, blocks 2 and 3}
+\session{Projects and internships, session 2, main auditorium, 9:05--10:35 AM, blocks 2 and 3}
 \procpaper[%
 title={Tracking progress of data backup and restore test cases: Internship at Commvault},
 author={Miguel Arenas},
@@ -175,7 +175,7 @@ index={\index{Lee, Edmund}},
 title={Non-launching mini fridge (NLMF)},
 author={Jason Katz},
 index={\index{Katz, Jason}},
-]{/katz/katz}
+]{/katz/katz-alt}
 
 \procpaper[%
 title={Si vis pacem, para ballista},
@@ -185,13 +185,13 @@ index={\index{Leung, Ryan}\index{Lavrenov, Anton}},
 
 
 
-\session{Keynote address by Dr.~Victor Lawrence, main auditorium, 10:50--11:00 AM, block 3}
+\session{Keynote address by Dr.~Victor Lawrence, main auditorium, 10:40--11:00 AM, block 3}
 
 
 
 
 
-\session{Projects and internships, session 3, main auditorium, 11:47 AM--1:17 PM, blocks 4 and 5}
+\session{Projects and internships, session 3, main auditorium, 11:50 AM--1:20 PM, blocks 4 and 5}
 \procpaper[%
 title={Hybrid BiLSTM machine learning and RNAfold-based thermodynamic modeling for RNA secondary structure prediction},
 author={Jophy Lin},
@@ -200,10 +200,10 @@ index={\index{Lin, Jophy}},
 
 
 \procpaper[%
-title={Data forecasting with auto-regresive integrated moving average (ARIMA)},
+title={Data forecasting with auto-regressive integrated moving average (ARIMA)},
 author={Kriti Malhotra and Connor Paszkiewiecz},
 index={\index{Malhotra, Kriti}\index{Paszkiewicz, Connor}},
-]{/malhotra/malhotra}
+]{/malhotra/malhotra-alt}
 
 \procpaper[%
 title={Compact integrated drone payload delivery system},
