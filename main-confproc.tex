@@ -18,7 +18,8 @@ linkcolor=blue,urlcolor=blue]{confproc}
 
 \usepackage{pdfpages}
 \usepackage{helvet,mathptmx}
-\renewcommand{\contentsname}{{\normalfont\sffamily Journal of\medskip~}\\{\normalfont\Huge Science \& Engineering}}
+%\renewcommand{\contentsname}{{\normalfont\sffamily Journal of\medskip~}\\{\normalfont\Huge Science \& Engineering}}
+\renewcommand{\contentsname}{}
 \usepackage{verse}
 
 \begin{document}
@@ -31,12 +32,13 @@ linkcolor=blue,urlcolor=blue]{confproc}
 \newpage
 \input{masthead.tex}
 \otherpagestyle
+\tableofcontents
+\addtocontents{toc}{{\normalfont\sffamily\Large Journal of\medskip~}\\{\normalfont\Huge Science \& Engineering}\medskip\\}
+\pdfbookmark[0]{Table of Contents}{toc}
 \makeatletter
 \addtocontents{toc}{Volume 2, Number 1, \@date\bigskip\\}
 \makeatother
-\tableofcontents
 \addtocontents{toc}{\emph{From the cover:} Science \& Engineering class of 2026. \emph{Cover image: Rishith Chandra Kilaru and Tushaar Akula.} \bigskip\\}
-
 \addtocontents{toc}{\textbf{Special issue: Science \& Engineering Senior Projects and Internships, Semester I, January 28, 2026.} \bigskip\\}
 % Haiku here
 \input{sne-acknowledgements.tex}
